@@ -1,0 +1,44 @@
+.service-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 30px;
+	padding: 30px 15px;
+	border: 1px solid $cultured;
+	border-radius: $border-radius-md;
+}
+
+.service-item {
+	min-width: 190px;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.service-icon {
+	font-size: 35px;
+	color: $salmon-pink;
+	transition: $transition-timing;
+}
+
+.service-icon ion-icon {
+	--ionicon-stroke-width: 25px;
+}
+
+.service-item:hover .service-icon {
+	color: $eerie-black;
+}
+
+.service-title {
+	color: $sonic-silver;
+	font-size: $fs-7;
+	font-weight: $weight-600;
+	text-transform: capitalize;
+	margin-bottom: 5px;
+}
+
+.service-desc {
+	color: $sonic-silver;
+	font-size: $fs-9;
+}

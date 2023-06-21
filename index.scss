@@ -1,9 +1,25 @@
+//normalize
 @import "normalize.css";
 
+//gloabal style
 @import "./src/style/fonts";
 @import "./src/style/var";
 @import "./src/style/style";
 @import "./src/style/global";
+
+//components
+@import "./src/style/components/overlay";
+@import "./src/style/components/toast";
+@import "./src/style/components/header";
+@import "./src/style/components/banner";
+@import "./src/style/components/category";
+@import "./src/style/components/sidebar";
+@import "./src/style/components/product";
+@import "./src/style/components/testimonial";
+@import "./src/style/components/CTA";
+@import "./src/style/components/service";
+@import "./src/style/components/blog";
+@import "./src/style/components/footer";
 
 //last
 @import "./src/style/media";
