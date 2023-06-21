@@ -1,0 +1,52 @@
+.blog {
+	margin-bottom: 30px;
+}
+
+.blog-container {
+	display: flex;
+	align-items: flex-start;
+	gap: 15px;
+	overflow-x: auto;
+	overscroll-behavior-inline: contain;
+	scroll-snap-type: inline mandatory;
+}
+
+.blog-card {
+	min-width: 100%;
+	scroll-snap-align: start;
+}
+
+.blog-banner {
+	width: 100%;
+	border-radius: $border-radius-md;
+	margin-bottom: 20px;
+}
+
+.blog-category {
+	width: max-content;
+	color: $salmon-pink;
+	font-size: $fs-8;
+}
+
+.blog-title {
+	color: $eerie-black;
+	font-size: $fs-5;
+	font-weight: $weight-600;
+	line-height: 1.4;
+	margin-bottom: 5px;
+	transition: $transition-timing;
+}
+
+.blog-title:hover {
+	color: $salmon-pink;
+}
+
+.blog-meta {
+	color: $sonic-silver;
+	font-size: $fs-7;
+}
+
+.blog-meta cite {
+	font-style: normal;
+	color: $davys-gray;
+}
